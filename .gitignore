@@ -1,0 +1,68 @@
+# Общие настройки для всех проектов
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Системные файлы и IDE
+.vscode/*
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+*.vcxproj*
+*.pdb
+*.opendb
+*.VC.db
+*.idb
+*.tlog
+*.lastbuildstate
+*.obj
+*.exe
+*.dll
+*.lib
+*.manifest
+*.ipr
+*.iws
+*.pch
+*.aps
+*.ncb
+*.sdf
+*.ipch
+*.rsp
+*.exp
+*.ilk
+_ReSharper*
+TestResults/
+*.vs/
+.vs/
+
+# Go
+*.exe
+*.out
+*.test
+*.log
+*.prof
+*.cover
+
+# Go modules
+/go.sum
+/go.mod
+
+# Скомпилированные файлы и папки Go
+/bin/
+/pkg/
+
+# Временные файлы
+*.tmp
+*.swp
+
+# Кэш и временные папки
+**/.idea/**
+**/.vscode/**
+**/.env/**
+**/.DS_Store/**
