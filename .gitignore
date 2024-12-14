@@ -1,10 +1,8 @@
-# Общие настройки для всех проектов
 .DS_Store
 Thumbs.db
 *.log
 *.tmp
 
-# Системные файлы и IDE
 .vscode/*
 .idea/
 *.code-workspace
@@ -13,7 +11,6 @@ Thumbs.db
 *.userosscache
 *.sln.docstates
 
-# Visual Studio
 *.vcxproj*
 *.pdb
 *.opendb
@@ -41,7 +38,6 @@ TestResults/
 *.vs/
 .vs/
 
-# Go
 *.exe
 *.out
 *.test
@@ -49,19 +45,14 @@ TestResults/
 *.prof
 *.cover
 
-# Go modules
 /go.sum
 /go.mod
 
-# Скомпилированные файлы и папки Go
 /bin/
-/pkg/
 
-# Временные файлы
 *.tmp
 *.swp
 
-# Кэш и временные папки
 **/.idea/**
 **/.vscode/**
 **/.env/**
